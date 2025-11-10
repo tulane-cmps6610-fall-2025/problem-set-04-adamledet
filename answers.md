@@ -57,7 +57,8 @@ EX: Need 5 change. Change bills are 2s, 3s, and 4s. The above algorithm would pi
 
 
 - **4b.**
-
+Our subproblem will be removing a denomination from our change and taking the minimum of the results.
+EX: need 5 change. Change bills are 2s, 3s, and 4s. We check if we have the exact right change; and, if not, break it into three sumbrokems of change for 3, 2, and 1. We don't have a bill for 1 (meaning 4 is out), but we do have a perfect match for 3 and 2; they are both the minimum and are optimal solitions.
 
 
 
